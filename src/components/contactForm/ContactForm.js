@@ -28,7 +28,7 @@ export const ContactForm = ({
           onChange={(e) => setPhone(e.target.value)}
         />
       </label>
-
+{/* pattern is Lebanese phone nb regex */}
       <label>
         Email:
         <input
